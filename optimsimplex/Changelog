@@ -1,0 +1,39 @@
+2017/07/22 Sebastien Bihorel <sb.pmlab@gmail.com>
+  
+  * Bug fix in optimsimplex for Spendley method
+
+2014/01/26 Sebastien Bihorel <sb.pmlab@gmail.com>
+
+  * Change vignette data location to comply to R 3.0 requirements
+  * Add NAMESPACE
+  * Rename .Rnw file due to creation of optimbase.tex doc file
+  * Formal creation of "existing" or new classes:
+    - optimsimplex
+    - simplex
+    - vertex
+  * Add is and print methods for 3 new classes
+  * optimsimplex: replace optimsimplex.new and include method option to create 
+  simplex object based upon 6 pre-existing methods (axes, coords, etc...)
+  * deprecated function: optimsimplex.new, optimsimplex.axes, 
+  optimsimplex.coords, optimsimplex.oriented, optimsimplex.pfeffer,
+  optimsimplex.randbounds, optimsimplex.spendley, optimsimplex.print. 
+  
+2011/03/30 Sebastien Bihorel <sb.pmlab@gmail.com>
+
+  * Corrected encoding of vignette source (latin1 instead of utf8x)
+
+2011/03/16 Sebastien Bihorel <sb.pmlab@gmail.com>
+
+  * Correction of a bug affecting multiple function when optimsimplex was used 
+  in an optimization problem with only one parameter. List of corrected 
+  functions are: optimsimplex.coords, optimsimplex.getall, optimsimplex.getallfv,
+  optimsimplex.getallx, optimsimplex.getve, optimsimplex.getx, 
+  optimsimplex.oriented, optimsimplex.randbounds, optimsimplex.reflect,
+  optimsimplex.setallx, optimsimplex.shrink, optimsimplex.size,
+  optimsimplex.sort, optimsimplex.spendley, and optimsimplex.xbar
+   
+  
+2010/05/11 Sebastien Bihorel <sb.pmlab@gmail.com>
+
+  * optimsimplex.Rnw: corrected \bibliography{optimsimplex.bib} to
+    \bibliography{optimsimplex} to address compilation issue in Windows.
