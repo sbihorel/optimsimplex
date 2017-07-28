@@ -11,7 +11,7 @@ Description: Provides a building block for optimization algorithms
         following optimization methods: the simplex method of Spendley
         et al. (1962) <doi:10.1080/00401706.1962.10490033>, the method of 
         Nelder and Mead (1965) <doi:10.1093/comjnl/7.4.308>, Box's algorithm for
-        constrained optimization (1965) <doi:10.1093/comjnl/8.1.42), the 
+        constrained optimization (1965) <doi:10.1093/comjnl/8.1.42>, the 
         multi-dimensional search by Torczon (1989) 
         <http://www.cs.wm.edu/~va/research/thesis.pdf>), etc...
 Depends: optimbase (>= 1.0-8),methods
