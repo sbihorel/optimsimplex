@@ -6,7 +6,7 @@
 % Load packages
 \usepackage{Sweave}
 \usepackage{Rd}
-\usepackage{ucs}
+%\usepackage{ucs}
 \usepackage[latin1]{inputenc}
 \usepackage{fontenc}
 \usepackage{amsmath}    % need for subequations
