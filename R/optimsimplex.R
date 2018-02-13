@@ -16,7 +16,7 @@ optimsimplex <- function(coords=NULL,fun=NULL,data=NULL,method=NULL,
                          boundsmax=NULL,boundsmin=NULL,nbve=NULL,
                          simplex0=NULL){
 
-  newobj <- simplex()
+  newobj <- osimplex()
 
   if (!is.null(method)){
     if(!any(method==c('axes','spendley','pfeffer','randbounds','oriented')))
@@ -265,7 +265,7 @@ optimsimplex <- function(coords=NULL,fun=NULL,data=NULL,method=NULL,
       mid <- diag(betav)
     
       # Compute simplex
-      newobj <- simplex()
+      newobj <- osimplex()
       newobj$n <- simplex0$n
       newobj$nbve <- simplex0$n+1
       newobj$x <- matrix(0,nrow=n+1,ncol=n)

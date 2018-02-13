@@ -7,7 +7,7 @@
 # http://www.cecill.info/licences/Licence_CeCILL_V2-en.txt
 #
 
-print.simplex <- function(x=NULL,...){
+print.osimplex <- function(x=NULL,...){
   
   cat(sprintf('Dimension: n=%d\n',x$n))
   cat(sprintf('Number of vertices: nbve=%d\n',x$nbve))

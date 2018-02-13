@@ -13,9 +13,9 @@ is.optimsimplex <- function(x=NULL){
   
 }
 
-is.simplex <- function(x=NULL){
+is.osimplex <- function(x=NULL){
   
-  inherits(x,'simplex')
+  inherits(x,'osimplex')
   
 }
 
