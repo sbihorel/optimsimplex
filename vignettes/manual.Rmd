@@ -23,7 +23,7 @@ require(optimsimplex)
 
 `optimsimplex` is a R port of a module originally developed for Scilab version
 5.2.1 by Michael Baudin (INRIA - DIGITEO). Information about this software can
-be found at [www.scilab.org](www.scilab.org). The following documentation as well as the
+be found at [www.scilab.org](https://www.scilab.org). The following documentation as well as the
 content of the functions .Rd files are adaptations of the documentation provided
 with the original Scilab optimsimplex module.
 
